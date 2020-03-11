@@ -63,7 +63,7 @@ font-weight: bold;
 
 #showcase {
 	min-height: 400px;
-	background-image:url('https://picsum.photos/200/300/?blur');
+	background:url(showcase.jpg);
 	text-align: center;
 	color:white;
 	text-shadow:2px 2px 8px #FF0000;
