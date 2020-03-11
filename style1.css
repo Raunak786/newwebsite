@@ -1,0 +1,102 @@
+body{
+	background:white;
+	color:red;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: auto;
+	font-weight: normal;
+	font:normal 16px Arial,Helvetica,sans-serif;
+	line-height:30px;
+}
+a{
+	text-decoration: none;
+	color:brown;
+}
+a:hover{
+	color:yellow;
+}
+a:active{
+	color:purple;
+}
+a:visited{
+	color:darkblue;
+}
+.container	{
+	width:%80;
+	margin:auto;
+}
+.box-1{
+	background: black;
+border:5px blue solid;
+border-top-style:dotted;
+padding-top:15px; 
+}
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 800px;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+.box-2{
+	background:lightpink;
+	border:3px solid grey;
+	padding:20px;
+	margin:20px;
+}
+.categories
+{
+	background:lightgreen;
+	border:1px grey solid;
+	padding:20px;
+	border-radius:15px;
+}
+.categories h2
+{
+	padding:0px;
+	text-align:center;
+}
+.categories ul
+{
+	
+	padding:0px;
+	list-style:square;
+	/*list-style:none;*/
+	
+}
+.categories li
+{
+	
+	padding-bottom:6px;
+	border-bottom:dotted 1px grey; 
+list-style-image: url('../images/check.jpg')
+	}
+
+.my-form
+{
+	padding:20px;
+}
+.my-form label
+{
+display:block;
+}
+.my-form input[type="text"],.my-form textarea
+{
+	padding:25px;
+	width:100%;
+}
+.my-form input[type="submit"]
+{
+	padding:10px 5px;
+	color:red;
+	background: black;
+}
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid green;
+	padding:10px;
+	box-sizing:border-box;
+
+}
